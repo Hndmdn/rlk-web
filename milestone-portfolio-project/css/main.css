@@ -1,0 +1,229 @@
+body {
+  font-family: 'Museo', sans-serif;
+}
+
+#about,#skills, #work, #contact {
+    height:700px;
+  }
+
+/**GRID**/
+.full-width {
+  max-width: auto;
+  max-height: auto;
+  margin: 0 auto;
+}
+
+.third-width{
+  width: 385px;
+  margin: 0 auto;
+  float:left;
+
+}
+.half-width{
+  width:600px;
+  margin: 0 auto;
+  float:left;
+}
+
+
+/***HEADER***/
+header {
+  height:800px;
+  background: url('../img/desktop.jpg');
+  background-size: cover;
+ }
+ h1 span {
+   color: #ffffff;
+ }
+nav {
+  float:right;
+  padding: 75px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    color: #2b2a2b;
+    padding-left: 40px;
+    }
+
+
+/**About Section***/
+#about .full-width {
+padding: 40px 0;
+}
+#about .half-width {
+align-content: center;
+}
+#about {
+  background-color:#667F6c;
+}
+
+#about h3 {
+  font-family: 'Seaweed Script', cursive;
+  font-size: 4vw;
+  font-weight:300;
+  color: #000000;
+  padding: 10px;
+}
+
+#about p {
+font-family: 'Museo',sans-serif;
+font-size:18px;
+line-height:42px;
+color:#2b2a2b;
+padding-right: 50px;
+}
+
+#about img{
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+
+
+/***Skills Section***/
+#skills {
+  background-color:#000000;
+  text-align:center;
+}
+#skills .full-width {
+  padding: 10px 20px;
+}
+
+#skills img {
+  padding-bottom: 45px;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#skills h3 {
+  font-family: 'Museo',sans-serif;
+  font-size:24px;
+  width:190px;
+  margin: 0px auto;
+  color:#ffffff;
+}
+#skills h2
+{
+  font-family: 'Seaweed Script', cursive;
+  font-size: 4vw;
+  font-weight:300;
+  color:#ffffff;
+  width:190px;
+  text-align: center;
+}
+
+#skills p {
+  color:#ffffff;
+  line-height: 30px;
+  padding: 20px 25px;
+  font-family: 'Museo',sans-serif;
+}
+/***WORK section***/
+#work {
+  background-color:#f9fffa;
+  text-align:center;
+  padding-bottom: 75px;
+  }
+#work .full-width {
+  padding: 2px 20px;
+}
+
+#work img {
+  padding-bottom: 45px;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+#work h2
+{
+  font-family: 'Seaweed Script', cursive;
+  font-size: 4vw;
+  font-weight:300;
+  color:#000000;
+  width:190px;
+  text-align: center;
+}
+
+#work h3 {
+  font-family: 'Museo',sans-serif;
+  font-size:24px;
+  width:190px;
+  margin: 0px auto;
+  color:#000000;
+    line-height: 20px;
+}
+
+
+#work p {
+  color:#000000;
+  line-height: 30px;
+  padding: 20px 25px;
+  font-family: 'Museo',sans-serif;
+}
+
+/***CONTACT***/
+#contact {
+  background: #c7ccc8;
+}
+#contact .full-width {
+  padding:90px 0px;
+}
+#contact-img {
+  width: 535px;
+  height:325px;
+  padding-top: 30px;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul{
+  padding-left: 80px;
+}
+#envelope {
+  padding: 0px 10px 0px 80px;
+  width:60px;
+  height: 60px;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+#contact h2 {
+  font-family: "Museo", sans-serif;
+  font-size:36px;
+}
+
+#email-header {
+  font-size:32px;
+  font-weight:200;
+  margin: -30px 0px 5px 0;
+  padding-bottom: 30px;
+}
+#socialmedia-header{
+color:#2b2a2b;
+font-weight: bold;
+font-size: 26px;
+margin: 40px 0 0 0;
+}
+#contact a {
+  text-decoration:none;
+  color:#000000;
+  font-weight:bold;
+  font-size: 28px;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display:inline-block;
+}
+#contact ul img {
+  font-size: 32px;
+  padding-right: 48px;
+  width:60px;
+  height:60px;
+}
